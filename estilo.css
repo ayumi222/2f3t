@@ -1,24 +1,22 @@
-body{
-    background-color: rgb(99, 24, 37);
-    color: rgb(185, 41, 65);
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
-
-.calculadora{
-    background-color: blue;
+.calculadora {
+    background-color: rgb(112, 129, 129);
     padding: 8px;
     width: 220px;
     text-align: center;
     border-radius: 10px;
 }
 .display_calc {
-    background-color: aqua;
-    color: brown;
+    background-color: transparent;
     text-align: center;
 }
 #resultado {
     padding: 2px;
-    background-color: rgb(165, 107, 32);
-    color: beige;
+    background-color: black;
+    color: yellow;
     text-align: center;
 }
 button {
@@ -27,5 +25,5 @@ button {
     margin: 3px;
 }
 #btn_igual {
-    background-color: blueviolet;
+    background-color: tomato;
 }
