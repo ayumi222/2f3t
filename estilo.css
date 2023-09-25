@@ -1,6 +1,31 @@
-
 body{
-    background-color: pink;
+    background-color: rgb(99, 24, 37);
     color: rgb(185, 41, 65);
 }
 
+.calculadora{
+    background-color: blue;
+    padding: 8px;
+    width: 220px;
+    text-align: center;
+    border-radius: 10px;
+}
+.display_calc {
+    background-color: aqua;
+    color: brown;
+    text-align: center;
+}
+#resultado {
+    padding: 2px;
+    background-color: rgb(165, 107, 32);
+    color: beige;
+    text-align: center;
+}
+button {
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+}
+#btn_igual {
+    background-color: blueviolet;
+}
