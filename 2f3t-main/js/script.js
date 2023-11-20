@@ -180,7 +180,7 @@ const mostrar_pa = () =>{
             pa += ""+ (i*r) + number(a1); 
         }
         document.getElementById("pa").innerHTML = pa;
-        document.getElementById("an").value = number(a1) + (n - 1)
+        document.getElementById("an").value = number(a1) + (n - 1)*r;
     }
 }
 const set_razao = () => {
