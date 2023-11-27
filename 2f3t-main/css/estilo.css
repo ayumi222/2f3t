@@ -48,3 +48,11 @@ button{
     border: none;
     border: 1px solid #aa1d1d;
 }
+.paisagem {
+    width: 90%;
+    height: 50%;
+}
+#figura {
+    width: 600px;
+    height: 720px;
+}

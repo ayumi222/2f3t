@@ -195,3 +195,11 @@ const set_n = () => {
     C = document.getElementById("n").value;
     mostrar_pa();
 }
+const mudar_imagem = ()=>{
+    setTimeout(()=> {
+        document.getElementById("figura").src = "./img/imagem"+num+".jpn";
+        if(num == 3) num = 0;
+        mudar_imagem();
+    },1000)
+}
+mudar_imagem();
